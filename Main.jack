@@ -1,0 +1,11 @@
+class Main {
+   function void main() {
+      
+      var int bla;
+      let bla = keyboard.readInt("How many numbers?");
+      do Output.printString("Hello world!");
+      do Output.printInt(bla);
+      do Output.println();      // New line
+      return;
+   }
+}
